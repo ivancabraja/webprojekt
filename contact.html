@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" href="ikone/favicon.png">
+
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <meta name="description" content="Auto Hrvatska">
+		<meta name="keywords" content="Auto Hrvatska">
+		<meta itemprop="name" content="Auto Hrvatska">
+		<meta itemprop="description" content="Auto Hrvatska">
+		<meta property="og:title" content="Auto Hrvatska">
+		<meta property="og:description" content="Auto Hrvatska">
+		<meta name="author" content="ivan.cabraja@gmail.com">
+		
+		<title>Kontakti</title>
+	</head>
+<body>
+	<header>
+		<div class="header-img"></div>
+		<nav>
+			<ul>
+			  <li><b><a href="index.html">Početna</a></b></li>
+			  <li><b><a href="news.html">Novosti</a></b></li>
+			  <li><b><a href="contact.html">Kontakt</a></b></li>
+			  <li><b><a href="about-us.html">O Nama</a></b></li>
+			  <li><b><a href="gallery.html">Galerija</a></b></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div id="contact">
+			<iframe src="https://maps.google.com/maps?q=auto%20hrvatska&t=&z=13&ie=UTF8&iwloc=&output=embed" width="50%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<form action="http://work2.eburza.hr/pwa/responzive-page/send-contact.php" id="contact_form" name="contact_form" method="POST">
+				<label for="fname">Ime *</label>
+				<input type="text" id="fname" name="firstname" placeholder="Ime.." required>
+
+				<label for="lname">Prezime *</label>
+				<input type="text" id="lname" name="lastname" placeholder="Prezime.." required>
+				
+				<label for="lname">E-mail *</label>
+				<input type="email" id="email" name="email" placeholder="E-mail.." required>
+
+				<label for="country">Država</label>
+				<select id="country" name="country">
+				  <option id="select-placeholder" value="" disabled selected hidden>Odaberi državu</option>
+				  <option value="HR">Hrvatska</option>
+				  <option value="BOS">Bosna i Hercegovina</option>
+				  <option value="SR">Srbija</option>
+				  <option value="SLO">Slovenija</option>
+				  <option value="INZ">Inozemstvo</option>
+				</select>
+
+				<label for="subject">Sadržaj</label>
+				<textarea id="subject" name="subject" placeholder="Napiši poruku.." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</main>
+	<footer>
+		<p>Social media:<br>
+			<a href="" target="_blank"><img src="ikone/linkedin.svg" title="Linkedin" style="width:24px; margin-top:0.4em"></a>
+			<a href="" target="_blank"><img src="ikone/twitter.svg" title="Twitter" style="width:24px; margin-top:0.4em"></a>
+			<a href="" target="_blank"><img src="ikone/google.svg" title="Google+" style="width:24px; margin-top:0.4em"></a>
+			<a href="https://github.com/ivancabraja/webprojekt" target="_blank"><img src="ikone/git.svg" title="Github" style="width:24px"></a>
+		</p>
+	</footer>
+</body>
+</html>
